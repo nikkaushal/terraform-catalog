@@ -1,4 +1,4 @@
 PROJECT_NAME   = "roboshop"
 ENV            = "dev"
-COMPONENT      = "frontend"
+COMPONENT      = "catalogue"
 INSTANCE_TYPE  = "t3.micro"

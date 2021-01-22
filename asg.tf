@@ -5,6 +5,7 @@ module "asg" {
   INSTANCE_TYPE   = var.INSTANCE_TYPE
   bucket          = var.bucket
   region          = var.region
-  PORT            = 80
-  HEALTH          = "/"
+  PORT            = 8080
+  HEALTH          = "/health"
 }
+
